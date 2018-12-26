@@ -8,8 +8,47 @@
 // ======== OBJECTS DEFINITIONS ========
 // Define your objects here
 
+const dog = {
+  name: 'Richard',
+  age: 5,
+  gender: 'male',
+  paws: 4,
+  tail: 1,
+  greeting: 'wow!'
+}
+
+const cat = {
+  name: 'Rocky',
+  age: 3,
+  gender: 'female',
+  paws: 4,
+  tail: 1,
+  greeting: 'meow!'
+}
+
+const woman = {
+  name: 'Helga',
+  age: 25,
+  gender: 'female',
+  hands: 2,
+  legs: 2,
+  greeting: 'Hello!'
+}
+
+const man = {
+  name: 'Rob',
+  age: 29,
+  gender: 'male',
+  hands: 2,
+  legs: 2,
+  greeting: 'Hi!'
+}
 
 // ======== OUTPUT ========
+print(dog.name + ';' + dog.age + ';' + dog.gender + ';' + dog.paws + ';' + dog.tail + ';' + dog.greeting + ';');
+print(cat.name + ';' + cat.age + ';' + cat.gender + ';' + cat.paws + ';' + cat.tail + ';' + cat.greeting + ';');
+print(woman.name + ';' + woman.age + ';' + woman.gender + ';' + woman.hands + ';' + woman.legs + ';' + woman.greeting + ';');
+print(man.name + ';' + man.age + ';' + man.gender + ';' + man.hands + ';' + man.legs + ';' + man.greeting + ';');
 /* Use print(message) for output.
    Default tag for message is <pre>. Use print(message,'div') to change containing element tag.
 
